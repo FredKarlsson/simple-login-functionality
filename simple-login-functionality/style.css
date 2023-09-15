@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    height: 60px;
+    padding: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    background: rgb(248, 129, 129);
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background: linear-gradient(90deg, royalblue, lightgreen);
+}
